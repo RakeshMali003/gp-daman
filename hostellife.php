@@ -2,8 +2,7 @@
     
 <!-----------------------------nav bar------------------>
 <?php
-include('..\gpdaman\header.html')
-
+include('common/header.php')
 ?>
 
 <!-------------------end-->
@@ -119,8 +118,7 @@ include('..\gpdaman\header.html')
 <!-----------------------contac us start --------------------------->
 
 <?php
-
-include('fotter.php');
+include('common/fotter.php');
 
 ?>
 

@@ -1,8 +1,9 @@
 <?php
 include('gpadmin.php');
-include('connection.php');
-?>
 
+session_start();
+    require_once "connection.php";
+?>
 
 <div class="main_content">
 <h3 class="mt-5">Details of student apply for addmission</h3>

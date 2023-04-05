@@ -10,7 +10,7 @@
     
 <!-----------------------------nav bar------------------>
 <?php
-include('..\gpdaman\header.html')
+include('common/header.php')
 
 ?>
 
@@ -23,7 +23,7 @@ include('..\gpdaman\header.html')
 
     
 
-    <h3 class="text-center" style="margin-top: 150px;">Faculty of Information technology</h3>
+    <h3 class="text-center" style="margin-top: 150px;">Faculty of Information Technology</h3>
 <div class="container">
     <div class="card-group">
         <div class="card m-2">
@@ -72,7 +72,7 @@ include('..\gpdaman\header.html')
 
                 
 
-    <h3 class="text-center mt-5">Faculty of Computer science</h3>
+    <h3 class="text-center mt-5">Faculty of Computer Science</h3>
     <div class="container">
         <div class="card-group">
             <div class="card m-2">
@@ -352,8 +352,7 @@ include('..\gpdaman\header.html')
 <!-----------------------contac us start --------------------------->
 
 <?php
-
-include('fotter.php');
+include('common/fotter.php');
 
 ?>
 

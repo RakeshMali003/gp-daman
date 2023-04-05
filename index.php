@@ -1,6 +1,6 @@
 <!-----------------------------nav bar------------------>
 <?php
-include('..\gpdaman\header.html')
+include('common/header.php')
 
 ?>
 
@@ -26,35 +26,37 @@ include('..\gpdaman\header.html')
 
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="..\gpdaman\photo\header-3.jpg" class="d-block w-100" style="height:650PX" alt="...">
+     
+            <img src="   ..\gpdaman\photo\header-1-1.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>One of the best collage of enginnering</h5>
+                <h5 class="text-shadow-h5">One Of The Best Collage Of Enginnering</h5>
             </div>
         </div>
         <div class="carousel-item">
 
-            <img src="..\gpdaman\photo\header-1-1.jpg" class="d-block w-100" style="height:650PX" alt="...">
+            <img src="..\gpdaman\photo\homeo.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>student are studing enjouly</h5>
+                <h5 class="text-shadow-h5">Student Are Studing Enjouly</h5>
             </div>
         </div>
         <div class="carousel-item">
             <img src="..\gpdaman\photo\header-2-1.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Take a break in libary</h5>
+                <h5 class="text-shadow-h5">Take a Break In Libary</h5>
             </div>
         </div>
 
         <div class="carousel-item">
             <img src="..\gpdaman\photo\library.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>book gallery</h5>
+                <h5 class="text-shadow-h5">Book Gallery</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="..\gpdaman\photo\homeo.jpg" class="d-block w-100" style="height:650PX" alt="...">
+      
+            <img src="  ..\gpdaman\photo\header-3.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5> proffesor are highly educated</h5>
+                <h5 class="text-shadow-h5">Proffesor Are Highly Educated</h5>
             </div>
         </div>
     </div>
@@ -147,27 +149,39 @@ include('..\gpdaman\header.html')
 
 <h3 class="text-center mt-5">OUR COURSES</h3>
 <div class="card-group">
+    
+
+
+
     <div class="card touch m-2">
         <img src="..\gpdaman\photo\curriculum.jpg" style="height:300px" alt="">
+        <a href="..\gpdaman\courses-cs.php">
         <div class="card-body">
-            <h5 class="card-title text-center text-primary">Computer</h5>
+            <h5 class="card-title text-center">Computer</h5>
         </div>
+        </a>
     </div>
+
 
 
     <div class="card touch m-2">
         <img src="..\gpdaman\photo\engineering.jpg" style="height:300px" alt="">
+<a href="..\gpdaman\courses-mechenical.php">
         <div class="card-body">
-            <h5 class="card-title text-center text-primary">Mechinical</h5>
-
+            <h5 class="card-title text-center">Mechinical</h5>
         </div>
+        </a>
     </div>
+
+
+
     <div class="card touch m-2">
         <img src="..\gpdaman\photo\homeo.jpg" style="height:300px" alt="">
+        <a href="..\gpdaman\courses-civil.php">
         <div class="card-body">
-            <h5 class="card-title text-center text-primary">Civil</h5>
-
+            <h5 class="card-title text-center">Civil</h5>
         </div>
+</a>
     </div>
 </div>
 
@@ -175,28 +189,35 @@ include('..\gpdaman\header.html')
 <div class="card-group">
     <div class="card touch m-2">
         <img src="..\gpdaman\photo\mca-1.jpg" style="height:300px" alt="">
+        <a href="..\gpdaman\courses-it.php">
         <div class="card-body">
-            <h5 class="card-title text-center text-primary">Information Technology</h5>
-
+            <h5 class="card-title text-center">Information Technology</h5>
         </div>
+        </a>
     </div>
 
 
+ 
     <div class="card touch m-2">
         <img src="..\gpdaman\photo\engineering.jpg" style="height:300px" alt="">
+        <a href="..\gpdaman\courses-plastic.php">
         <div class="card-body">
-            <h5 class="card-title text-center text-primary">Plastic</h5>
-
+            <h5 class="card-title text-center">Plastic</h5>
         </div>
+</a>
     </div>
 
 
-    <div class="card touch m-2">
-        <img src="..\gpdaman\photo\engineering.jpg" style="height:300px" alt="">
-        <div class="card-body">
-            <h5 class="card-title text-center text-primary">Electrical</h5>
 
+ 
+    <div class="card touch m-2">
+
+        <img src="..\gpdaman\photo\engineering.jpg" style="height:300px" alt="">
+        <a href="..\gpdaman\courses-electrical.php">
+        <div class="card-body">
+            <h5 class="card-title text-center">Electrical</h5>
         </div>
+</a>
 </div>
 </div>
 
@@ -264,7 +285,7 @@ include('..\gpdaman\header.html')
 
 <?php
 
-include('fotter.php');
+include('common/fotter.php');
 
 ?>
 

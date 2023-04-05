@@ -1,3 +1,44 @@
+<?php
+    include('connection/connection.php');
+session_start();
+//------------------------------------insertion query start---------------------------------
+
+if(isset($_REQUEST['login'])){
+
+
+
+$enrollment = $_REQUEST['enrollment'];
+$password = $_REQUEST['password'];
+
+$result = mysqli_query($con, "SELECT * FROM `add_student` WHERE enrollment_number='$enrollment'");
+
+$row = mysqli_fetch_assoc($result);
+
+ 
+if(mysqli_num_rows($result) > 0){
+    if($password == $row['password']){
+        $_SESSION['is_login'] = true;
+        $_SESSION['enrollment'] = $enrollment;
+?>
+<script>
+location.href='students/studentdashboard.php';
+</script>
+<?php
+
+   }else{
+    ?>
+    <script>
+   alert("Password is encorrect please enter correct.");
+</script>
+<?php
+}
+}
+
+    }
+    
+?>
+
+
 <!----------------------------------------navbar start-------------------------------------->
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +54,8 @@
     <link rel="stylesheet" href="..\gpdaman\bootstrap-5.0.0-beta2-dist\css\bootstrap.min.css">
     <script src="..\gpdaman\bootstrap-5.0.0-beta2-dist\js\bootstrap.min.js"></script>
 
+
+    
     <!-----------------------------------end bostrap file ---------------------------------------------->
 
 
@@ -28,11 +71,17 @@
 
 
     <!-- css file-->
-    <link rel="stylesheet" href="..\gpdaman\style.css">
+    <link rel="stylesheet" href="../gpdaman/style.css">
 
-
+    <style>
+    .modal-content{
+        background-color: rgba(0, 0, 0, 0.269);
+        color:white;
+    }
+</style>
   
 </head>
+
 
 <body>
 
@@ -46,11 +95,11 @@
 
     <!-----------------------------------start navbar---------------------------->
 
-    <nav class="navbar  fixed-top navbar-expand-lg">       
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark " id="nav">       
         <div class="container-fluid">
             <a class="navbar-brand" style="font-weight: bold; font-size: 25px;" href="#"><img
                     src="..\gpdaman\photo\gpd_logo.jpg" style="height: 65px; width: 65px;"></a>
-            <a class="navbar-brand" style="font-weight: bold; font-size: 25px; color:red" href="#">GP DAMAN</a>
+            <a class="navbar-brand" style="font-weight: bold; font-size: 25px; color:orange" href="#">GP DAMAN</a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -60,7 +109,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size:17px">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="..\gpdaman\gpdaman.php">HOME</a>
+                        <a class="nav-link active" aria-current="page" href="..\gpdaman\index.php">HOME</a>
                     </li>
                     </li>
                     <li class="nav-item">
@@ -109,7 +158,7 @@
                             <li><a class="dropdown-item" href="..\gpdaman\Academic-Calender-2021-22-Even.pdf" target="_blank">ACADEMIC CALENDER</a></li>
                             <li><a class="dropdown-item" href="..\gpdaman\Mandatory-disclosure-latest-.pdf" target="_blank">MANDATORY-DISCLOSURES</a></li>
                             <li><a class="dropdown-item" href="..\gpdaman\gallery.php">GALLERY</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\libary.php">Libary</a></li>
+                            <li><a class="dropdown-item" href="..\gpdaman\libary.php">LIBARY</a></li>
                             <li><a class="dropdown-item" href="#">NOTICE</a></li>
                         </ul>
                         </li>
@@ -120,11 +169,11 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">NSS ACTIVITIES</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\Sports-Week-Report.pdf" target="_blank">SPORT DAY</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\Annual-day-report.pdf" target="_blank">ANNUAL DAY</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\Navratri-Report-2021.pdf" target="_blank">NAVRATRI</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\ganpati-report.pdf" target="_blank">GANPATI CELEBRATION</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\liberation-day.pdf" target="_blank">LIBERATION DAY</a></li>
+                                <li><a class="dropdown-item" href="..\gpdaman\pdf\Sports-Week-Report.pdf" target="_blank">SPORT DAY</a></li>
+                                <li><a class="dropdown-item" href="..\gpdaman\pdf\Annual-day-report.pdf" target="_blank">ANNUAL DAY</a></li>
+                                <li><a class="dropdown-item" href="..\gpdaman\pdf\Navratri-Report-2021.pdf" target="_blank">NAVRATRI</a></li>
+                                <li><a class="dropdown-item" href="..\gpdaman\pdf\ganpati-report.pdf" target="_blank">GANPATI CELEBRATION</a></li>
+                                <li><a class="dropdown-item" href="..\gpdaman\pdf\liberation-day.pdf" target="_blank">LIBERATION DAY</a></li>
                             </ul>
                         </li>
 
@@ -133,11 +182,44 @@
                     </li>
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login" type="button" style="border-radius:50px" ><a class="btn text-light"
+                        href="#">LOGIN</a></button>
+
                     <button class="btn btn-primary" type="button" style="border-radius:50px"><a class="btn text-light"
                             href="..\gpdaman\apply.php">APPLY NOW</a></button>
+
+                            
                 </div>
 
             </div>
         </div>
     </nav>
 
+
+<!------------------------signup model-------------------->
+
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Student Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
+      
+                <label for="">Enter Student Enrollment No.</label>
+                <input type="text" class="input" name="enrollment" placeholder="Enter Enrollment No.">
+                <label for="">Password</label>
+                <input type="password" class="input" name="password" placeholder="Enter Password">
+            
+                <input type="submit" name="login" class="btn1" value="Login">
+               
+         <div class="link">
+                <a href="#"> Forget password?</a>
+         </div>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>

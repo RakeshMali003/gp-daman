@@ -4,22 +4,19 @@
     box-sizing: border-box;
 }
 /* --------------------------------------nav bar ----------------------*/
-nav{
-    background-color: #595c5daf;
-
+#nav{
+    background-color: rgba(36, 36, 37, 0.727);
 }
-nav li a{
-    color:#f9fafb;
-    
-}
-nav li a:hover{
-    background-color: #00aced;
-    border-radius: 50px;
-    color:#fff;
+#nav li a:hover{
+    border-bottom: 3px blueviolet solid;
     transition: 0.5s;
 
 }
 
+#nav.scrolled{
+    background-color: rgba(30, 29, 29, 0.924);
+    transition: 1s all;
+}
 /* --------------------------------------------nav bar end ------------------------*/
 
 
@@ -28,15 +25,66 @@ nav li a:hover{
     background: url('winter.jpg');
 }
 
-.touch{
+.touch a{
     background-color: rgba(0, 0, 0, 0.129);
+    text-decoration: none;
+
+}
+
+.touch:hover a{
+    background-color: rgb(62, 62, 235);
+    transition: 1.5s ease-in-out;
+ 
     color:white;
 }
+
 
 
 /*------------------------------------------------------------service end----------------------------------------*/
 
 
+/*-------------------------------------social icon---------------------------------*/
+
+.social a{
+    font-size: 30px;
+    margin-right: 10px;
+    padding: 20px;
+    color: #fff;
+}
+.social a span1:hover{
+    background: #3b5999;
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+.social a span2:hover{
+    background:#00aced;
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+.social span3:hover{
+    background: rgb(233, 9, 222);
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+.social a span4:hover{
+    background:#cd201f;
+    width:50px;
+    height:50px;
+    border-radius:100px ;
+    padding:10px;
+    transition: 0.3s;
+}
+
+/*-------------------------------------------social icon end-------------------------------- */
 
 
 /* ----------------------------------------- login and sign up ---------------------------------*/
@@ -154,22 +202,20 @@ font-size: 25px;
     width: 100%;
 }
 
-/*-----------------------focum img----------------------- */
+#model{
+   border:2px solide black;
+
+}
+
+/*_------------------login box------------------------*/ 
 
 
+/*_------------------text shadow in cursol------------------------*/ 
 
-/*----------------------------social-media-----------------*/
-.social-media a i:hover{
-    background-color: #00aced;
-padding: 5px;
-    border-radius: 50px;
-    transition: 0.5s;
+.text-shadow-h5 {
+text-shadow: 3px 3px 3px black;
+font-size:25px;
 }
 
 
-/*----------------------------end social-media-----------------*/
-
-
-
-
-
+/*_------------------text shadow in cursol------------------------*/ 

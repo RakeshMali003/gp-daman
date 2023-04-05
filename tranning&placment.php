@@ -11,7 +11,7 @@
     
 <!-----------------------------nav bar------------------>
 <?php
-include('..\gpdaman\header.html')
+include('common/header.php')
 
 ?>
 
@@ -34,7 +34,7 @@ include('..\gpdaman\header.html')
         <div class="card-group mt-5">
          
                 <div class="col-4">
-                <img src="..\gpdaman\photo\Jasvant-Mandloi.png" style="width:400px" class="d-block"
+                <img src="..\gpdaman\photo\Jasvant-Mandloi.png" class="d-block"
                         style="height:450PX;width: 350PX; border-radius: 20px;">
                         <h2 class="card-title text-center">Jasvant Mandloi</h2>
                 </div>
@@ -314,7 +314,7 @@ To assist students in obtaining placement in reputed companies.</p>
 
 <?php
 
-include('fotter.php');
+include('common/fotter.php');
 
 ?>
 

@@ -2,7 +2,9 @@
     
 <!-----------------------------nav bar------------------>
 <?php
-include('..\gpdaman\header.html')
+include('common/header.php')
+
+
 
 ?>
 
@@ -140,7 +142,7 @@ include('..\gpdaman\header.html')
     </ol>
 
 
-    <h3 class="text-center " style="margin-top: 100px;color:#7F69F4;">Placement record</h3>
+    <h3 class="text-center " style="margin-top: 100px;color:#7F69F4;">Placement Record</h3>
 
     
 	

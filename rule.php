@@ -10,7 +10,7 @@
     
 <!-----------------------------nav bar------------------>
 <?php
-include('..\gpdaman\header.html')
+include('common/header.php')
 
 ?>
 
@@ -120,7 +120,7 @@ include('..\gpdaman\header.html')
 
 <?php
 
-include('fotter.php');
+include('common/fotter.php');
 
 ?>
 

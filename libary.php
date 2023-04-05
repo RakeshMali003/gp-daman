@@ -2,7 +2,7 @@
     
 <!-----------------------------nav bar------------------>
 <?php
-include('..\gpdaman\header.html')
+include('common/header.php')
 
 ?>
 
@@ -197,8 +197,7 @@ It has departmental libraries in all the departments, thus catering to the needs
 <!-----------------------contac us start --------------------------->
 
 <?php
-
-include('fotter.php');
+include('common/fotter.php');
 
 ?>
 

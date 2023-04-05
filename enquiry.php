@@ -1,7 +1,7 @@
 <?php
 include('gpadmin.php');
-include('connection.php');
 
+include('connection/connection.php');
  
 ?>
 <div class="main_content">
@@ -54,7 +54,7 @@ while($result = mysqli_fetch_assoc($query)){
   <th scope="col">Sr no.</th>
       <th scope="col">Name </th>
         <th scope="col">email</th>
-        <td scope="col">Contact Number</td>
+        <th scope="col">Contact Number</th>
       <th scope="col">enquire</th>
 </tr>
   </tfoot>

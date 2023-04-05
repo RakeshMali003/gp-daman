@@ -96,7 +96,8 @@
 <!---------------------------query form-------------------->
 <?php
 
-include('..\gpdaman\connection.php');
+
+include('connection/connection.php');
 
 
 
@@ -105,6 +106,7 @@ if(isset($_POST['submit'])){
   $email = $_POST['email'];
   $number = $_POST['number'];
   $enquire = $_POST['enquire'];
+
 
   $insertquery = "INSERT INTO `enquiry`( `name`, `email`, `number`,`enquiry`) VALUES ('$name','$email','$number','$enquire')";
 
@@ -126,21 +128,24 @@ if(isset($_POST['submit'])){
      <?php
   }
   }
+
   
   ?>
   <form class="row" method="POST">
   <div class="">
      <div class="form-group">
-          <input type="text" name="name" class="form-control mt-2 p-1" placeholder="Name">
+          <input type="text" name="name" class="form-control mt-2 p-1"  placeholder="Name" pattern="[A-Za-z ]+" minlength="3" required>
 </div>
 <div class="form-group">
-          <input type="text" name="email" class="form-control mt-2 p-1" placeholder="Email ID">
+          <input type="text" name="email" class="form-control mt-2 p-1" placeholder="Email ID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 </div>
-<div class="form-group">
-          <input type="text" name="number" class="form-control mt-2 p-1" placeholder="Contact number">
+<div class="input-group">
+    <span class="input-group-text  mt-2" id="validationTooltipUsernamePrepend">+91</span>
+     <input type="text" id="mobile" pattern="[0-9]{10,12}" minlength="10" maxlength="10" placeholder="contact" name="number" class="form-control mt-2 p-1"  class="form-control" id="validationDefault02"  required>
 </div>
+
 <div class="form-group">
-          <textarea type="text" name="enquire" class="form-control mt-2 p-1" placeholder="write your query here!"></textarea>
+          <textarea type="text" name="enquire" class="form-control mt-2 p-1" placeholder="write your query here!" required></textarea>
 </div>
       <div class="">
         <input type="submit" class="btn btn-primary mt-2 mb-2" name="submit">
@@ -190,7 +195,12 @@ if(isset($_POST['submit'])){
     <script src="..\fontawesome-free-6.1.1-web (1)\fontawesome-free-6.1.1-web\js\fontawesome.min.js"></script>
     <!---------------------------------------end fontawesome----------------------->
 
-
+<script>
+  window.addEventListener('scroll', function() {
+  var nav = document.querySelector('nav');
+  nav.classList.toggle('scrolled', window.scrollY > 600);
+});
+</script>
 
 </body>
 </html>
