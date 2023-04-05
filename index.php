@@ -21,7 +21,7 @@ include('common/header.php')
 
 
 <!----------------------carousel-------------------->
-
+<h2> hello </h2>
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
     <div class="carousel-inner">
