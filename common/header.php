@@ -95,7 +95,7 @@ location.href='students/studentdashboard.php';
 
     <!-----------------------------------start navbar---------------------------->
 
-    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark " id="nav">       
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-light " id="nav">       
         <div class="container-fluid">
             <a class="navbar-brand" style="font-weight: bold; font-size: 25px;" href="#"><img
                     src="..\gpdaman\photo\gpd_logo.jpg" style="height: 65px; width: 65px;"></a>
