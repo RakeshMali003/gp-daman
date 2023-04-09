@@ -136,6 +136,10 @@ margin:20px;
         </li>
 
         <li class="cd-side__item cd-side__item--overview js-cd-item--has-children">
+          <a class="nav-link active" href="../faculty/class-timetable.php" aria-disabled="page">Class Timetable</a>
+        </li>
+
+        <li class="cd-side__item cd-side__item--overview js-cd-item--has-children">
           <a class="nav-link active" href="../faculty/class-attendance.php" aria-disabled="page">Class attendance</a>
         </li>
 
