@@ -128,7 +128,7 @@ location.href='../admin/adminlogin.php';
         </li>
 
         <li class="cd-side__item cd-side__item--overview js-cd-item--has-children">
-          <a class="nav-link active" href="..\admin\time-table.php" aria-disabled="page">Time Table</a>
+          <a class="nav-link active" href="..\admin\time-tabl..php" aria-disabled="page">Time Table</a>
         </li>
         
 

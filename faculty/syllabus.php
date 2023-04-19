@@ -54,7 +54,7 @@ include('afterloginfacultysidebar.php');
 
    
             <div class="col-12">
-              <input type="submit" class="btn btn-primary mb-3" name="submit" value="upload Syllabus">
+              <input type="submit" class="btn btn-primary mb-3" name="submit" value="Upload Syllabus">
             </div>
     </form>
 

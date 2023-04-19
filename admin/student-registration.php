@@ -111,7 +111,7 @@ VALUES ('$fname','$lname','$mname','$gender','$email','$aadhar','$mobile','$amob
             </div>
             
             <div class="col-md-6">
-      <label for="validationDefault04" class="form-label">Gender</label>
+      <label for="validationDefault04" class="form-label">Student Gender</label>
       <select class="form-select" name="gender" id="validationDefault04" required>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
@@ -127,17 +127,17 @@ VALUES ('$fname','$lname','$mname','$gender','$email','$aadhar','$mobile','$amob
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Aadhar Number</label>
-              <input type="text" class="form-control" id="validationDefault05" name="aadhar" placeholder="2535468592" pattern="[0-9]{10,12}" minlength="10" required>
+              <input type="text" class="form-control" id="validationDefault05" name="aadhar" placeholder="2535468592" pattern="[0-9]{10,12}" minlength="16" maxlength="16" required>
             </div>
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Mobile number</label>
-              <input type="text" class="form-control" id="validationDefault05" name="mobile" placeholder="enter 10 digit" pattern="[0-9]{10,12}" minlength="10" maxlength="12" required>
+              <input type="text" class="form-control" id="validationDefault05" name="mobile" placeholder="enter 10 digit" pattern="[0-9]{10,12}" minlength="10" maxlength="10" required>
             </div>
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Alternate Mobile Number</label>
-              <input type="text" class="form-control" id="validationDefault05" name="amobile" placeholder="enter 10 digit" pattern="[0-9]{10,12}" minlength="10" maxlength="12" required>
+              <input type="text" class="form-control" id="validationDefault05" name="amobile" placeholder="enter 10 digit" pattern="[0-9]{10,12}" minlength="10" maxlength="10" required>
             </div>
 
           
@@ -163,13 +163,45 @@ VALUES ('$fname','$lname','$mname','$gender','$email','$aadhar','$mobile','$amob
             </div>
 
             <div class="col-md-4">
-              <label for="validationDefault05" class="form-label">State</label>
-              <input type="text" class="form-control" id="validationDefault05" name="state" required>
-            </div>
+    <label for="validationDefault02" class="form-label">State</label>
+    <select class="form-select" id="validationDefault04" required name="state" required>
+  <option value="">Select a state</option>
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+  <option value="Assam">Assam</option>
+  <option value="Bihar">Bihar</option>
+  <option value="Chhattisgarh">Chhattisgarh</option>
+  <option value="Goa">Goa</option>
+  <option value="Gujarat">Gujarat</option>
+  <option value="Haryana">Haryana</option>
+  <option value="Himachal Pradesh">Himachal Pradesh</option>
+  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+  <option value="Jharkhand">Jharkhand</option>
+  <option value="Karnataka">Karnataka</option>
+  <option value="Kerala">Kerala</option>
+  <option value="Maharashtra">Maharashtra</option>
+  <option value="Manipur">Manipur</option>
+  <option value="Meghalaya">Meghalaya</option>
+  <option value="Mizoram">Mizoram</option>
+  <option value="Nagaland">Nagaland</option>
+  <option value="Odisha">Odisha</option>
+  <option value="Punjab">Punjab</option>
+  <option value="Rajasthan">Rajasthan</option>
+  <option value="Sikkim">Sikkim</option>
+  <option value="Tamil Nadu">Tamil Nadu</option>
+  <option value="Telangana">Telangana</option>
+  <option value="Tripura">Tripura</option>
+  <option value="UP">Uttar Pradesh</option>
+  <option value="Uttarakhand">Uttarakhand</option>
+  <option value="West Bengal">West Bengal</option>
+</select>
+
+  </div>
+  
 
             <div class="col-md-4">
               <label for="validationDefault05" class="form-label">Pin code</label>
-              <input type="text" class="form-control" id="validationDefault05" name="pincode" plcaeholder="934874" pattern="[0-9]{10,12}" minlength="6" maxlength="12" required>
+              <input type="text" class="form-control" id="validationDefault05" name="pincode" plcaeholder="934874" pattern="[0-9]{10,12}" maxlength="6"  required>
             </div>
 
             <h4>Education Details</h4> <hr>
@@ -185,7 +217,7 @@ VALUES ('$fname','$lname','$mname','$gender','$email','$aadhar','$mobile','$amob
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Course</label>
-              <input type="text" class="form-control" id="validationDefault05" name="course" placeholder="diploma" required>
+              <input type="text" class="form-control" id="validationDefault05" name="course"  Value="Diploma" readonly required>
             </div>
 
             <div class="col-md-6">
@@ -220,7 +252,7 @@ VALUES ('$fname','$lname','$mname','$gender','$email','$aadhar','$mobile','$amob
     </div>
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Term End</label>
-              <input type="text" class="form-control" id="validationDefault05" name="termend" required>
+              <input type="date" class="form-control" id="validationDefault05" name="termend" required>
             </div>
 
             

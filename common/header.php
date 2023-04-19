@@ -75,9 +75,12 @@ location.href='students/studentdashboard.php';
 
     <style>
     .modal-content{
-        background-color: rgba(0, 0, 0, 0.269);
+        background-color: rgba(0, 0, 0, 0.500);
         color:white;
     }
+    .text-bold{
+    font-weight: bold;
+}
 </style>
   
 </head>
@@ -202,16 +205,21 @@ location.href='students/studentdashboard.php';
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Student Login</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5 class="modal-title" id="exampleModalLabel"> <a href="#" style="color:white; text-decoration:none "> Student Login </a></h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white; margin:10px ">  </a> | </h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\faculty\facultylogin.php" style="color:white; text-decoration:none; margin:5px"> Faculty Login </a></h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white;  margin:10px ">  </a>|</h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\admin\adminlogin.php" style="color:white; text-decoration:none; margin:5px"> Admin Login </a></h5> 
+
+          <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close" style="background-color:red"></button>
         </div>
         <div class="modal-body">
             <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
       
-                <label for="">Enter Student Enrollment No.</label>
-                <input type="text" class="input" name="enrollment" placeholder="Enter Enrollment No.">
-                <label for="">Password</label>
-                <input type="password" class="input" name="password" placeholder="Enter Password">
+                <label for="" class="text text-bold">Enter Student Enrollment No.</label>
+                <input type="text" class="input" name="enrollment" placeholder="Enter Enrollment No." style="color:white; font-size:16px">
+                <label for="" class="text-bold">Password</label>
+                <input type="password" class="input" name="password" placeholder="Enter Password" style="color:white; font-size:16px">
             
                 <input type="submit" name="login" class="btn1" value="Login">
                

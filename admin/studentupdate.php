@@ -102,7 +102,7 @@ if($res){
             </div>
             
                     <div class="col-md-6">
-      <label for="validationDefault04" class="form-label">Gender</label>
+      <label for="validationDefault04" class="form-label">Student Gender</label>
       <select class="form-select" name="gender" id="validationDefault04" required>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
@@ -118,17 +118,17 @@ if($res){
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Aadhar Number</label>
-              <input type="text" class="form-control" id="validationDefault05" name="aadhar" minlength="10" required value="<?php echo $result['aadhar']; ?>">
+              <input type="text" class="form-control" id="validationDefault05" name="aadhar" minlength="16" maxlength="16" required value="<?php echo $result['aadhar']; ?>">
             </div>
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Mobile number</label>
-              <input type="text" class="form-control" id="validationDefault05" name="mobile"  pattern="[0-9]{10,12}" minlength="10" maxlength="12" required value="<?php echo $result['number']; ?>">
+              <input type="text" class="form-control" id="validationDefault05" name="mobile"  pattern="[0-9]{10,12}" minlength="10" maxlength="10" required value="<?php echo $result['number']; ?>">
             </div>
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Alternate Mobile Number</label>
-              <input type="text" class="form-control" id="validationDefault05" name="amobile"  pattern="[0-9]{10,12}" minlength="10" maxlength="12" required value="<?php echo $result['anumber']; ?>">
+              <input type="text" class="form-control" id="validationDefault05" name="amobile"  pattern="[0-9]{10,12}" minlength="10" maxlength="10" required value="<?php echo $result['anumber']; ?>">
             </div>
 
           
@@ -153,20 +153,51 @@ if($res){
               <input type="text" class="form-control" id="validationDefault05" name="city" required value="<?php echo $result['city']; ?>">
             </div>
 
-            <div class="col-md-4">
-              <label for="validationDefault05" class="form-label">State</label>
-              <input type="text" class="form-control" id="validationDefault05" name="state" required value="<?php echo $result['state']; ?>">
-            </div>
+                      <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">State</label>
+    <select class="form-select" id="validationDefault04" required name="state" required>
+  <option value="">Select a state</option>
+  <option value="Andhra Pradesh">Andhra Pradesh</option>
+  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+  <option value="Assam">Assam</option>
+  <option value="Bihar">Bihar</option>
+  <option value="Chhattisgarh">Chhattisgarh</option>
+  <option value="Goa">Goa</option>
+  <option value="Gujarat">Gujarat</option>
+  <option value="Haryana">Haryana</option>
+  <option value="Himachal Pradesh">Himachal Pradesh</option>
+  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+  <option value="Jharkhand">Jharkhand</option>
+  <option value="Karnataka">Karnataka</option>
+  <option value="Kerala">Kerala</option>
+  <option value="Maharashtra">Maharashtra</option>
+  <option value="Manipur">Manipur</option>
+  <option value="Meghalaya">Meghalaya</option>
+  <option value="Mizoram">Mizoram</option>
+  <option value="Nagaland">Nagaland</option>
+  <option value="Odisha">Odisha</option>
+  <option value="Punjab">Punjab</option>
+  <option value="Rajasthan">Rajasthan</option>
+  <option value="Sikkim">Sikkim</option>
+  <option value="Tamil Nadu">Tamil Nadu</option>
+  <option value="Telangana">Telangana</option>
+  <option value="Tripura">Tripura</option>
+  <option value="UP">Uttar Pradesh</option>
+  <option value="Uttarakhand">Uttarakhand</option>
+  <option value="West Bengal">West Bengal</option>
+</select>
+
+  </div>
 
             <div class="col-md-4">
               <label for="validationDefault05" class="form-label">Pin code</label>
-              <input type="text" class="form-control" id="validationDefault05" name="pincode" pattern="[0-9]{5,8}" minlength="5" maxlength="8" required value="<?php echo $result['pincode']; ?>">
+              <input type="text" class="form-control" id="validationDefault05" name="pincode" pattern="[0-9]{5,8}" minlength="6" maxlength="6" required value="<?php echo $result['pincode']; ?>">
             </div>
 
             <h4>Education Details</h4> <hr>
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Enrollment Number</label>
-              <input type="text" class="form-control" readonly id="validationDefault05" name="enrollment"  pattern="[0-9]{10,12}" minlength="12" maxlength="15" required value="<?php echo $result['enrollment_number']; ?>">
+              <input type="text" class="form-control" id="validationDefault05" name="enrollment"  pattern="[0-9]{10,12}" minlength="12" maxlength="15" required value="<?php echo $result['enrollment_number']; ?>">
             </div>
 
             <div class="col-md-6">
@@ -212,7 +243,7 @@ if($res){
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Term End</label>
-              <input type="text" class="form-control"  id="validationDefault05" name="termend" required value="<?php echo $result['term_end']; ?>">
+              <input type="date" class="form-control"  id="validationDefault05" name="termend" required value="<?php echo $result['term_end']; ?>">
             </div>
 
             
@@ -235,7 +266,7 @@ if($res){
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Mobile Number</label>
-              <input type="text" class="form-control" id="validationDefault05" minlength="10" maxlength="12" pattern="[0-9]{10,12}" required value="<?php echo $result['fmobile']; ?>" name="fmobile">
+              <input type="text" class="form-control" id="validationDefault05" minlength="10" maxlength="10" pattern="[0-9]{10,12}" required value="<?php echo $result['fmobile']; ?>" name="fmobile">
             </div>
 
 
@@ -256,7 +287,7 @@ if($res){
 
             <div class="col-md-6">
               <label for="validationDefault05" class="form-label">Mobile Number</label>
-              <input type="text" class="form-control" id="validationDefault05" pattern="[0-9]{10,12}" minlength="10" maxlength="12" required value="<?php echo $result['mmobile']; ?>" name="mmobile">
+              <input type="text" class="form-control" id="validationDefault05" pattern="[0-9]{10,12}" minlength="10" maxlength="10" required value="<?php echo $result['mmobile']; ?>" name="mmobile">
             </div>
 
             <div class="col-12">

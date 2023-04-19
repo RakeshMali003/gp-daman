@@ -22,10 +22,16 @@ location.href='../admin/adminprofile.php';
 </script>
 <?php
 
+    }else if($password !== $row['password']){
+        ?>
+        <script>
+       alert("Password is incorrect");
+    </script>
+    <?php
     }else{
         ?>
         <script>
-       alert("Unable to login");
+       alert("Both password or email is incorrect");
     </script>
     <?php
     }
@@ -52,6 +58,10 @@ location.href='../admin/adminprofile.php';
         background-color: rgba(0, 0, 0, 0.269);
         color:white;
     }
+
+    .text-bold{
+    font-weight: bold;
+}
 </style>
   
 
@@ -65,10 +75,10 @@ location.href='../admin/adminprofile.php';
 
         <form action="" method="POST">
 
-            <label for="">Login</label>
-            <input type="text" class="input" name="email" placeholder="Enter Email">
-            <label for="">Password</label>
-            <input type="password" class="input" name="password" placeholder="Enter Password">
+            <label for="" class="text-bold">Login</label>
+            <input type="text" class="input" name="email" placeholder="Enter Email" required style="color:white;  font-size : 16px">
+            <label for="" class="text-bold">Password</label>
+            <input type="password" class="input" name="password" placeholder="Enter Password" requiredd style="color:white;  font-size : 16px">
             <input type="submit" name="login" class="btn1" value="Login">
             <div class="link">
                 <a href="#"> Forget password?</a>

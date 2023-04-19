@@ -13,7 +13,7 @@ include('afterloginfacultysidebar.php');
            <h3> <label for="">Upload Academic calender</label> </h3><hr>
             <input type="file" name="file" class="form-control mt-3" required>
             </div>
-            <input type="submit" name="submit" class="btn btn-primary m-3" value="submit">
+            <input type="submit" name="submit" class="btn btn-primary m-3" value="Share">
     </form>
 
 <?php

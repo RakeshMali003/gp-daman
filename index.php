@@ -36,7 +36,7 @@ include('common/header.php')
 
             <img src="..\gpdaman\photo\homeo.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5 class="text-shadow-h5">Student Are Studing Enjouly</h5>
+                <h5 class="text-shadow-h5">Student Are Studing joyously</h5>
             </div>
         </div>
         <div class="carousel-item">
@@ -168,7 +168,7 @@ include('common/header.php')
         <img src="..\gpdaman\photo\engineering.jpg" style="height:300px" alt="">
 <a href="..\gpdaman\courses-mechenical.php">
         <div class="card-body">
-            <h5 class="card-title text-center">Mechinical</h5>
+            <h5 class="card-title text-center">Mechanical</h5>
         </div>
         </a>
     </div>
