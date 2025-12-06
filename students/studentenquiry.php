@@ -1,6 +1,6 @@
 <?php
  include('../connection/connection.php');
-include('..\students\afterstudentlogin.php');
+include('../students/afterstudentlogin.php');
 
 $enrollment = $_SESSION['enrollment'];
 

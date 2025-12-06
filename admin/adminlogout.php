@@ -6,5 +6,5 @@ session_destroy();
 ?> 
 
 <script>
-location.href='../admin/adminlogin.php';
+location.href='../index.php';
 </script>

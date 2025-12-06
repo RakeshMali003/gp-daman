@@ -2,7 +2,7 @@
 include('gpadmin.php');
 
 session_start();
-include('connection.php')
+include('connection.php');
 
 if(isset($_POST['submit'])){
 
@@ -12,7 +12,6 @@ if(isset($_POST['submit'])){
   $insertquery = "INSERT INTO `add_notice`( `notice`) VALUES ('$notice')";
 
   $res =  mysqli_query($con, $insertquery);
-
  
   if($res == true){
     ?>

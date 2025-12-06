@@ -23,7 +23,7 @@ include('common/header.php')
 
     <div class="card-group mt-3">
         <div class="card m-2">
-            <img src="..\gpdaman\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
+            <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                 <p class="card-title text-center">Head of Department-IT</p>
@@ -32,7 +32,7 @@ include('common/header.php')
 
 
         <div class="card m-2">
-            <img src="..\gpdaman\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
+            <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Sanjay mate</h5>
                 <p class="card-title text-center">proffesor of Department-IT</p>
@@ -40,7 +40,7 @@ include('common/header.php')
         </div>
         
         <div class="card m-2">
-            <img src="..\gpdaman\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+            <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Subham gupta</h5>
                 <p class="card-title text-center">proffesor of Department-IT</p>
@@ -48,7 +48,7 @@ include('common/header.php')
         </div>
     
             <div class="card m-2">
-                <img src="..\gpdaman\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
+                <img src="..\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Raajesh pendem</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -58,7 +58,7 @@ include('common/header.php')
             
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\gpdaman\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
+            <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                 <p class="card-title text-center">Head of Department-IT</p>
@@ -67,7 +67,7 @@ include('common/header.php')
         </div>
 
         <div class="card m-2">
-            <img src="..\gpdaman\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
+            <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Sanjay mate</h5>
             <p class="card-title text-center">proffesor of Department-IT</p>
@@ -75,7 +75,7 @@ include('common/header.php')
         </div>
 
         <div class="card m-2">
-            <img src="..\gpdaman\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+            <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Subham gupta</h5>
                 <p class="card-title text-center">proffesor of Department-IT</p>
@@ -83,7 +83,7 @@ include('common/header.php')
         </div>
     
             <div class="card m-2">
-                <img src="..\gpdaman\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
+                <img src="..\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Raajesh pendem</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -97,19 +97,19 @@ include('common/header.php')
      
     <div class="card-group mt-3">
         <div class="card m-2">
-            <img src="..\gpdaman\photo\clab.jpg" style="height:250px" alt="">
+            <img src="..\photo\clab.jpg" style="height:250px" alt="">
         </div>
 
         <div class="card m-2">
-            <img src="..\gpdaman\photo\clab2.jpg" style="height:250px" alt="">
+            <img src="..\photo\clab2.jpg" style="height:250px" alt="">
         </div>
 
         <div class="card m-2">
-         <img src="..\gpdaman\photo\Lab-2.png" style="height:250px" alt="">            
+         <img src="..\photo\Lab-2.png" style="height:250px" alt="">            
         </div>
         
         <div class="card m-2">
-                <img src="..\gpdaman\photo\lab1.jpg" style="height:250px" alt="">
+                <img src="..\photo\lab1.jpg" style="height:250px" alt="">
             </div>
         </div>
 

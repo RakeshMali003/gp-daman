@@ -6,5 +6,5 @@ session_destroy();
 ?> 
 
 <script>
-location.href='../faculty/facultylogin.php';
+location.href='../index.php';
 </script>

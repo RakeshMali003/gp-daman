@@ -21,7 +21,7 @@ if(mysqli_num_rows($result) > 0){
         $_SESSION['enrollment'] = $enrollment;
 ?>
 <script>
-location.href='students/studentdashboard.php';
+location.href='students/studentdashboard.php ';
 </script>
 <?php
 
@@ -66,6 +66,7 @@ location.href='students/studentdashboard.php';
     <!-- font ausome-->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!---------------------------------------end fontawesome----------------------->
 
 
@@ -183,6 +184,8 @@ location.href='students/studentdashboard.php';
                     <li class="nav-item">
                         <a class="nav-link active" href="#contact" aria-disabled="page">CONTACT US</a>
                     </li>
+
+                    
                 </ul>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login" type="button" style="border-radius:50px" ><a class="btn text-light"
@@ -205,11 +208,11 @@ location.href='students/studentdashboard.php';
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel"> <a href="#" style="color:white; text-decoration:none "> Student Login </a></h5> 
-          <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white; margin:10px ">  </a> | </h5> 
-          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\faculty\facultylogin.php" style="color:white; text-decoration:none; margin:5px"> Faculty Login </a></h5> 
-          <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white;  margin:10px ">  </a>|</h5> 
-          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\admin\adminlogin.php" style="color:white; text-decoration:none; margin:5px"> Admin Login </a></h5> 
+          <h5 class="modal-title" id="exampleModalLabel"> <a href="#" style="color:white; text-decoration:none " target="_blank"> Student Login </a></h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white; margin:10px " >  </a> | </h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\faculty\facultylogin.php" style="color:white; text-decoration:none; margin:5px" target="_blank"> Faculty Login </a></h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white;  margin:10px " target="_blank">  </a>|</h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\admin\adminlogin.php" style="color:white; text-decoration:none; margin:5px" target="_blank"> Admin Login </a></h5> 
 
           <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close" style="background-color:red"></button>
         </div>

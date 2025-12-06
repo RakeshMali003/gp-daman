@@ -1,6 +1,6 @@
 <?php
 
-include('..\students\afterstudentlogin.php');
+include('../students/afterstudentlogin.php');
 
 
 if(isset($_POST["submit"])){

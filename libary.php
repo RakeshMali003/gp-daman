@@ -24,7 +24,7 @@ color:white;
 <div class="mb-3">
     <div class="row g-0">
       <div class="col-md-6">
-        <img src="..\gpdaman\photo\lib2.jpg" class="img-fluid rounded-start" style="height:500px; width:600px" alt="...">
+        <img src="..\photo\lib2.jpg" class="img-fluid rounded-start" style="height:500px; width:600px" alt="...">
       </div>
       <div class="col-md-6">
         <div class="card-body">

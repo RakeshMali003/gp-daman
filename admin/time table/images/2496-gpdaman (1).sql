@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2023 at 04:59 AM
+-- Generation Time: Apr 20, 2023 at 07:39 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -97,13 +97,14 @@ CREATE TABLE `add_student` (
 --
 
 INSERT INTO `add_student` (`sr_no`, `fname`, `lname`, `mname`, `gender`, `email`, `aadhar`, `number`, `anumber`, `dob`, `pob`, `address`, `city`, `state`, `pincode`, `enrollment_number`, `password`, `courses`, `branch`, `college_name`, `term_end`, `father_name`, `father_lname`, `foccupation`, `fmobile`, `mother_name`, `mother_lname`, `mmobile`, `moccupation`, `sem`) VALUES
-(68, 'minaz', 'mulla', 'abcd', 'Female', 'minaz@gmail.com', '121101111554', '07600404831', '8866590998', '2022-12-06', 'vapi', 'Daman', 'Daman', 'Arunachal Pradesh', '396210', '206580316025', '1234', 'diploma  ', 'Information Technology', 'Government polyphonic daman', '2023-05-10', 'jafar', 'patel', 'bussniues', '0760454556', 'wrert', 'devi', '07600404831', 'homewife', '1'),
+(68, 'minaz', 'mulla', 'minaz', 'Female', 'minaz@gmail.com', '121101111554', '07600404831', '8866590998', '2022-12-06', 'vapi', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '206580316025', '1234', 'diploma  ', 'Information Technology', 'Government polyphonic daman', '2023  ', 'jafar', 'patel', 'bussniues', '0760454556', 'wrert', 'devi', '07600404831', 'homewife', '1'),
 (69, 'rakesh', 'mali', 'ratan', 'male', 'rakeshmali46519@gmail.com', '12333454754', '0760043333', '5655607600', '2023-01-19', 'maharashtra', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '206580316003', '1234', 'diploma              ', 'Information Technology', 'Government polyphonic daman', '2023              ', 'savalram', 'patel', 'bussniues', '07600404831', 'sangita', 'devi', '45423333333', 'adweads', '1'),
-(70, 'poonam', 'patel', 'ratan', 'female', 'poonam@gmail.com', '4340293243', '07600404831', '9898801055', '2023-01-06', 'gujrat', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '206580316002', '1234', 'diploma  ', 'Information Technology', 'Government polyphonic daman', '2023  ', 'savalram', 'patel', 'bussniues', '07600404831', 'ramila', 'devi', '07600404831', 'adweads', '1'),
+(70, 'poonam', 'patel', 'ratan', 'Female', 'poonam@gmail.com', '1234340293243', '07600404831', '9898801055', '2023-01-06', 'gujrat', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '206580316002', '1234', 'diploma', 'Information Technology', 'Government polyphonic daman', '2023', 'savalram', 'patel', 'bussniues', '07600404831', 'ramila', 'devi', '07600404831', 'adweads', '1'),
 (71, 'yashvi', 'patel', 'raju', 'Female', 'rakeshmali46519@gmail.com', '4356578', '07600404831', '3453454', '2023-01-12', 'maharashtra', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '206580316001', '1234', 'Diploma', 'Information Technology', 'Government polyphonic daman', '2023', 'raju', 'patel', '345345', '7878', 'ram', 'patel', '34534534', 'v345v34', '1'),
 (72, 'rakesh', 'mali', 'xyz', 'Male', 'rakeshmali46519@gmail.com', '12345678', '07600404831', '0760', '2023-01-20', 'maharashtra', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '206580316006', '1234', 'diploma', 'Information Technology', 'Government polyphonic daman', '2023', 'rakesh', 'patel', 'bussniues', '07600404831', 'xyz', 'patel', '07600404831', 'ereer', '1'),
 (74, 'ritika', 'pandey', 'rakesh', 'Female', 'ritika@gmail.com', '11212121212', '232323232333', '333333333333', '2023-03-02', 'up', 'pardi', 'gav', 'gujrat', '3962103333', '206580316018', '1234', 'diploma', 'Information Technology', 'Government polyphonic daman', '2023', 'rakesh', 'panday', 'worker', '2222222222', 'ramila', 'pandey', '222222222222', 'housewife', '1'),
-(75, 'satyam', 'yadav', 'xyz', 'Male', 'satyam@gmail.com', '1234567890', '07600404831', '07600404831', '2023-03-08', 'daman', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '3962102222', '206580316004', '1234', 'diploma', 'Information Technology', 'Government polyphonic daman', '2023', 'rakesh', 'eeee', 'bussniues', '07600404831', 'nita', 'pandey', '07600404831', 'ereer', '1');
+(75, 'satyam', 'yadav', 'xyz', 'Male', 'satyam@gmail.com', '1234567890', '07600404831', '07600404831', '2023-03-08', 'daman', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '3962102222', '206580316004', '1234', 'diploma', 'Information Technology', 'Government polyphonic daman', '2023', 'rakesh', 'eeee', 'bussniues', '07600404831', 'nita', 'pandey', '07600404831', 'ereer', '1'),
+(76, 'khushi', 'pandey', 'rakesh', 'Female', 'ritika99@gmail.com', '12345678912', '999863423888', '665431234567', '3333-03-03', 'dubai', 'UTTTAR Pradesh', 'dubai', 'londan', '3961859999', '206580316028', '1234', 'diploma', 'civil', 'ritika college', '2024', 'rakesh', 'pandey', 'prime minster', '887654432125', 'gita ', 'pandey', '9987654356', 'IPS', '6');
 
 -- --------------------------------------------------------
 
@@ -141,8 +142,7 @@ CREATE TABLE `add_teacher` (
 INSERT INTO `add_teacher` (`sr_no`, `fname`, `lname`, `mname`, `teacher_email`, `mobile`, `amobile`, `profile`, `dob`, `gender`, `pob`, `address`, `city`, `state`, `pincode`, `resume`, `higher_education`, `doj`, `email`, `password`) VALUES
 (14, 'rakesh', 'bhujade', 'ram', 'rakeshbhujade@gmail.com', '076897565433', '07600404831', '', '2023-01-12', 'male', 'vapi', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '', 'phd', '2023-01-18', 'rakesh@1234', '1234'),
 (16, 'subham', 'gupta', 'kumar', 'subham@gmail.com', '076004048222', '07600404831', '', '2023-01-04', 'male', 'vapi', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '', 'phd', '2023-01-17', 'shubham@1234', '1234'),
-(17, 'sanjay', 'mate', 'xyz', 'sanjay@gmail.com', '07600404831', '3434343434', '', '2023-01-18', 'male', '445fg', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '', 'phd', '2023-01-25', 'sanjay@1234', '1234'),
-(18, 'vighnesh', 'nikam', 'xyz', 'rakeshmali46519@gmail.com', '7600404831', '5656565656', '', '2004-12-05', 'male', 'satara', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '', 'MS', '2004-12-05', 'vighnesh33', '123');
+(17, 'sanjay', 'mate', 'ram', 'sanjay@gmail.com', '07600404831', '3434343434', '', '2023-01-18', 'male', '445fg', 'Daman', 'Daman', 'Dadra and Nagar Haveli and Daman and Diu', '396210', '', 'phd', '2023-01-25', 'sanjay@1234', '1234');
 
 -- --------------------------------------------------------
 
@@ -341,8 +341,7 @@ INSERT INTO `enquiry` (`sr_no`, `name`, `email`, `number`, `enquiry`) VALUES
 (97, 'oip', 'aloktiwari5804@gmail.com', '4444444444', 'hi\r\n\r\n'),
 (98, 'kkk', 'rakeshmali46519@gmail.com', '9898801505', 'kijiknjn '),
 (99, 'kkk', 'rakeshmali46519@gmail.com', '9898801505', 'kijiknjn '),
-(100, 'kkk', 'rakeshmali46519@gmail.com', '9898801505', 'kijiknjn '),
-(101, 'omm', 'rakeshmali46519@gmail.com', '2423433323', '234234\r\n\r\n');
+(100, 'kkk', 'rakeshmali46519@gmail.com', '9898801505', 'kijiknjn ');
 
 -- --------------------------------------------------------
 
@@ -376,13 +375,6 @@ CREATE TABLE `pre-question-paper` (
   `faculty` varchar(233) NOT NULL,
   `year` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `pre-question-paper`
---
-
-INSERT INTO `pre-question-paper` (`sr_no`, `image`, `subject`, `sem`, `faculty`, `year`) VALUES
-(16, '2496-gpdaman (1).sql', 'Maths', '1', 'rakesh', '2022-12-04');
 
 -- --------------------------------------------------------
 
@@ -439,8 +431,7 @@ INSERT INTO `sms` (`sr_no`, `subject_code`, `subject_name`, `semester`, `teachin
 (23, '7985', 'MATHS', '1', '54', 'rakesh bhujade'),
 (24, '151', 'information technology', '1', '56', '656'),
 (26, '124352', 'opp', '1', '34', 'sanjay'),
-(27, '4434', 'computer', '1', '34', 'sanjay'),
-(28, '4563', 'english', '2', '25', 'sunita');
+(27, '4434', 'computer', '1', '34', 'sanjay');
 
 -- --------------------------------------------------------
 
@@ -532,12 +523,12 @@ CREATE TABLE `time_table_sem_2` (
 --
 
 INSERT INTO `time_table_sem_2` (`day`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`) VALUES
-('monday', ' maths', '                  english', '                  wns', 'advance oop', '                     se             ', '         pratical 1', '    pratical                        ', '                 cs                  '),
-('tuesday', '                  english', '                  english', '                  icn', '                  m-2', '                  ti', '       pratical  ', '     pratical                     ', '   ict                     '),
-('wednesday', '                  maths', '                 maths ', '                  m-2', '                  m-2', '                  me', '        pratical                        fd  ', '      pratical  ', '           maths       '),
-('thursday', '                  java', '                  java', '                  ins', '                      m-2                                                    ', '                  ac', '           pratical 3', '      pratical   ', '   graphic                                hih                          '),
-('friday', '              math', '                    math                  fr                wrf', '                   asp                    fr       fr         wf', '        fr               android                 fr          wre       ', '                 re ', '                  pratical', '    pratical                                           ', '               maths                                         '),
-('saturday', '  ', '  ', '  ', '  ', '  ', '  ', '  ', '  ');
+('monday', 'maths', '                 english', '                 wns', '                 oop', '                    se             ', '        pratical 1', '   pratical                        ', '                cs                  '),
+('tuesday', '                 english', '                 english', '                 icn', '                 m-2', '                 ti', '      pratical  ', '    pratical                     ', '  ict                     '),
+('wednesday', '                 maths', '                maths ', '                 m-2', '                 m-2', '                 me', '       pratical                        fd  ', '     pratical  ', '          maths       '),
+('thursday', '                 java', '                 java', '                 ins', '                     m-2                                                    ', '                 ac', '          pratical 3', '     pratical   ', '  graphic                                hih                          '),
+('friday', '             math', '                   math                  fr                wrf', '                  asp                    fr       fr         wf', '       fr               android                 fr          wre       ', '                re ', '                 pratical', '   pratical                                           ', '              maths                                         '),
+('saturday', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
 
 -- --------------------------------------------------------
 
@@ -802,7 +793,7 @@ ALTER TABLE `add_student`
 -- AUTO_INCREMENT for table `add_teacher`
 --
 ALTER TABLE `add_teacher`
-  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `adminlogin`
@@ -832,7 +823,7 @@ ALTER TABLE `attendence`
 -- AUTO_INCREMENT for table `enquiry`
 --
 ALTER TABLE `enquiry`
-  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102;
+  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=101;
 
 --
 -- AUTO_INCREMENT for table `image`
@@ -844,7 +835,7 @@ ALTER TABLE `image`
 -- AUTO_INCREMENT for table `pre-question-paper`
 --
 ALTER TABLE `pre-question-paper`
-  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `result`
@@ -856,7 +847,7 @@ ALTER TABLE `result`
 -- AUTO_INCREMENT for table `sms`
 --
 ALTER TABLE `sms`
-  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+  MODIFY `sr_no` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `studentenquiry`

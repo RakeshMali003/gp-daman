@@ -146,11 +146,11 @@ location.href='../admin/adminlogin.php';
         </li>
 
         <li class="cd-side__item cd-side__item--overview js-cd-item--has-children">
-          <a class="nav-link active" href="../admin/enquairy-detail.php" aria-disabled="page">Public Enquairy</a>
+          <a class="nav-link active" href="../admin/enquairy-detail.php" aria-disabled="page">Public Enquiry</a>
         </li>
 
         <li class="cd-side__item cd-side__item--overview js-cd-item--has-children">
-          <a class="nav-link active" href="../admin/student-enquairy-details.php" aria-disabled="page">Student Enquairy</a>
+          <a class="nav-link active" href="../admin/student-enquairy-details.php" aria-disabled="page">Student Enquiry</a>
         </li>
 
     

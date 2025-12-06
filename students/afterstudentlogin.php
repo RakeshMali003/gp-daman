@@ -6,7 +6,7 @@ if(!isset($_SESSION['enrollment'])){
     ?> 
 
 <script>
-location.href='../gpdaman.php';
+location.href='/index.php';
 </script>
 
 <?php
