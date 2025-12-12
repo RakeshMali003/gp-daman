@@ -34,7 +34,7 @@ include('common/header.php')
         <div class="card-group mt-5">
          
                 <div class="col-4">
-                <img src="..\photo\Jasvant-Mandloi.png" class="d-block"
+                <img src=".\photo\Jasvant-Mandloi.png" class="d-block"
                         style="height:450PX;width: 350PX; border-radius: 20px;">
                         <h2 class="card-title text-center">Jasvant Mandloi</h2>
                 </div>

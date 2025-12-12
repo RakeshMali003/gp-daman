@@ -27,7 +27,7 @@ include('common/header.php')
 <div class="container">
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
+            <img src=".\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                 <p class="card-title text-center">Head of Department-IT</p>
@@ -37,7 +37,7 @@ include('common/header.php')
 
 
         <div class="card m-2">
-            <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
+            <img src=".\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Sanjay mate</h5>
                 <p class="card-title text-center">proffesor of Department-IT</p>
@@ -45,7 +45,7 @@ include('common/header.php')
             </div>
         </div>
         <div class="card m-2">
-            <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+            <img src=".\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
             <div class="card-body">
                 <h5 class="card-title text-center text-primary">Subham gupta</h5>
                 <p class="card-title text-center">proffesor of Department-IT</p>
@@ -56,7 +56,7 @@ include('common/header.php')
 
     
             <div class="card m-2">
-                <img src="..\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
+                <img src=".\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Raajesh pendem</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -76,7 +76,7 @@ include('common/header.php')
     <div class="container">
         <div class="card-group">
             <div class="card m-2">
-                <img src="..\photo\Comp-HOD-Aruna-Govada.png" style="height:250px" alt="">
+                <img src=".\photo\Comp-HOD-Aruna-Govada.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Dr. Aruna govada</h5>
                     <p class="card-title text-center">Head of Department-computer</p>
@@ -86,7 +86,7 @@ include('common/header.php')
     
     
             <div class="card m-2">
-                <img src="..\photo\Comp-N-Rajitha.png" style="height:250px" alt="">
+                <img src=".\photo\Comp-N-Rajitha.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Rajitha</h5>
                     <p class="card-title text-center">proffesor of Department-computer</p>
@@ -94,7 +94,7 @@ include('common/header.php')
                 </div>
             </div>
             <div class="card m-2">
-                <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+                <img src=".\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Subham gupta</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -105,7 +105,7 @@ include('common/header.php')
     
         
                 <div class="card m-2">
-                    <img src="..\photo\Electrical-Department-Manish.png" style="height:250px" alt="">
+                    <img src=".\photo\Electrical-Department-Manish.png" style="height:250px" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-center text-primary">Manish</h5>
                         <p class="card-title text-center">proffesor of Department-computer</p>
@@ -130,7 +130,7 @@ include('common/header.php')
     <div class="container">
         <div class="card-group">
             <div class="card m-2">
-                <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
+                <img src=".\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                     <p class="card-title text-center">Head of Department-IT</p>
@@ -140,7 +140,7 @@ include('common/header.php')
     
     
             <div class="card m-2">
-                <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
+                <img src=".\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Sanjay mate</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -148,7 +148,7 @@ include('common/header.php')
                 </div>
             </div>
             <div class="card m-2">
-                <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+                <img src=".\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Subham gupta</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -159,7 +159,7 @@ include('common/header.php')
     
         
                 <div class="card m-2">
-                    <img src="..\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
+                    <img src=".\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-center text-primary">Raajesh pendem</h5>
                         <p class="card-title text-center">proffesor of Department-IT</p>
@@ -188,7 +188,7 @@ include('common/header.php')
     <div class="container">
         <div class="card-group">
             <div class="card m-2">
-                <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
+                <img src=".\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                     <p class="card-title text-center">Head of Department-IT</p>
@@ -198,7 +198,7 @@ include('common/header.php')
     
     
             <div class="card m-2">
-                <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
+                <img src=".\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Sanjay mate</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -206,7 +206,7 @@ include('common/header.php')
                 </div>
             </div>
             <div class="card m-2">
-                <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+                <img src=".\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Subham gupta</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -217,7 +217,7 @@ include('common/header.php')
     
         
                 <div class="card m-2">
-                    <img src="..\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
+                    <img src=".\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-center text-primary">Raajesh pendem</h5>
                         <p class="card-title text-center">proffesor of Department-IT</p>
@@ -251,7 +251,7 @@ include('common/header.php')
     <div class="container">
         <div class="card-group">
             <div class="card m-2">
-                <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
+                <img src=".\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                     <p class="card-title text-center">Head of Department-IT</p>
@@ -261,7 +261,7 @@ include('common/header.php')
     
     
             <div class="card m-2">
-                <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
+                <img src=".\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Sanjay mate</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -269,7 +269,7 @@ include('common/header.php')
                 </div>
             </div>
             <div class="card m-2">
-                <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+                <img src=".\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Subham gupta</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -280,7 +280,7 @@ include('common/header.php')
     
         
                 <div class="card m-2">
-                    <img src="..\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
+                    <img src=".\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-center text-primary">Raajesh pendem</h5>
                         <p class="card-title text-center">proffesor of Department-IT</p>
@@ -311,7 +311,7 @@ include('common/header.php')
     <div class="container">
         <div class="card-group">
             <div class="card m-2">
-                <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
+                <img src=".\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                     <p class="card-title text-center">Head of Department-IT</p>
@@ -321,7 +321,7 @@ include('common/header.php')
     
     
             <div class="card m-2">
-                <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
+                <img src=".\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Sanjay mate</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -329,7 +329,7 @@ include('common/header.php')
                 </div>
             </div>
             <div class="card m-2">
-                <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
+                <img src=".\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px" alt="">
                 <div class="card-body">
                     <h5 class="card-title text-center text-primary">Subham gupta</h5>
                     <p class="card-title text-center">proffesor of Department-IT</p>
@@ -340,7 +340,7 @@ include('common/header.php')
     
         
                 <div class="card m-2">
-                    <img src="..\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
+                    <img src=".\photo\IT-RAJESH-KUMAR-PENDEM.png" style="height:250px" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-center text-primary">Raajesh pendem</h5>
                         <p class="card-title text-center">proffesor of Department-IT</p>

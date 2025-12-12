@@ -33,7 +33,7 @@ include('common/header.php')
         <div class="card-group mt-5">
          
                 <div class="col-4">
-                <img src="..\photo\Principal-sir-at-desk.jpeg" class="d-block"
+                <img src=".\photo\Principal-sir-at-desk.jpeg" class="d-block"
                         style="height:450PX;width: 350PX; border-radius: 20px;"> 
                 </div>
                 <div class="col-8">

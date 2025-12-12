@@ -27,34 +27,34 @@ include('common/header.php')
     <div class="carousel-inner">
         <div class="carousel-item active">
      
-            <img src="   ..\photo\header-1-1.jpg" class="d-block w-100" style="height:650PX" alt="...">
+            <img src="   .\photo\header-1-1.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="text-shadow-h5">One Of The Best College Of Enginnering</h5>
             </div>
         </div>
         <div class="carousel-item">
 
-            <img src="..\photo\homeo.jpg" class="d-block w-100" style="height:650PX" alt="...">
+            <img src=".\photo\homeo.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="text-shadow-h5">Student Are Studing joyously</h5>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="..\photo\header-2-1.jpg" class="d-block w-100" style="height:650PX" alt="...">
+            <img src=".\photo\header-2-1.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="text-shadow-h5">Take a Break In Libary</h5>
             </div>
         </div>
 
         <div class="carousel-item">
-            <img src="..\photo\library.jpg" class="d-block w-100" style="height:650PX" alt="...">
+            <img src=".\photo\library.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="text-shadow-h5">Book Gallery</h5>
             </div>
         </div>
         <div class="carousel-item">
       
-            <img src="  ..\photo\header-3.jpg" class="d-block w-100" style="height:650PX" alt="...">
+            <img src="  .\photo\header-3.jpg" class="d-block w-100" style="height:650PX" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="text-shadow-h5">Fun in Sports.</h5>
             </div>
@@ -110,7 +110,7 @@ include('common/header.php')
         <div class="col-lg-6" id="gallery">
 
             <div class="carousel-inner">
-                <img src="..\photo\engineering.jpg" class="d-block"
+                <img src=".\photo\engineering.jpg" class="d-block"
                     style="height:400PX;width: 450PX; border-radius: 20px;">
             </div>
 
@@ -154,7 +154,7 @@ include('common/header.php')
 
 
     <div class="card touch m-2">
-        <img src="..\photo\curriculum.jpg" style="height:300px" alt="">
+        <img src=".\photo\curriculum.jpg" style="height:300px" alt="">
         <a href="..\courses-cs.php">
         <div class="card-body">
             <h5 class="card-title text-center">Computer</h5>
@@ -165,7 +165,7 @@ include('common/header.php')
 
 
     <div class="card touch m-2">
-        <img src="..\photo\engineering.jpg" style="height:300px" alt="">
+        <img src=".\photo\engineering.jpg" style="height:300px" alt="">
 <a href="..\courses-mechenical.php">
         <div class="card-body">
             <h5 class="card-title text-center">Mechanical</h5>
@@ -176,7 +176,7 @@ include('common/header.php')
 
 
     <div class="card touch m-2">
-        <img src="..\photo\homeo.jpg" style="height:300px" alt="">
+        <img src=".\photo\homeo.jpg" style="height:300px" alt="">
         <a href="..\courses-civil.php">
         <div class="card-body">
             <h5 class="card-title text-center">Civil</h5>
@@ -188,7 +188,7 @@ include('common/header.php')
 
 <div class="card-group">
     <div class="card touch m-2">
-        <img src="..\photo\mca-1.jpg" style="height:300px" alt="">
+        <img src=".\photo\mca-1.jpg" style="height:300px" alt="">
         <a href="..\courses-it.php">
         <div class="card-body">
             <h5 class="card-title text-center">Information Technology</h5>
@@ -199,7 +199,7 @@ include('common/header.php')
 
  
     <div class="card touch m-2">
-        <img src="..\photo\engineering.jpg" style="height:300px" alt="">
+        <img src=".\photo\engineering.jpg" style="height:300px" alt="">
         <a href="..\courses-plastic.php">
         <div class="card-body">
             <h5 class="card-title text-center">Plastic</h5>
@@ -212,7 +212,7 @@ include('common/header.php')
  
     <div class="card touch m-2">
 
-        <img src="..\photo\engineering.jpg" style="height:300px" alt="">
+        <img src=".\photo\engineering.jpg" style="height:300px" alt="">
         <a href="..\courses-electrical.php">
         <div class="card-body">
             <h5 class="card-title text-center">Electrical</h5>

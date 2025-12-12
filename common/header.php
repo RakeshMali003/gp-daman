@@ -103,7 +103,7 @@ location.href='students/studentdashboard.php ';
         <div class="container-fluid">
             <a class="navbar-brand" style="font-weight: bold; font-size: 25px;" href="#"><img
                     src="..\gpdaman\photo\gpd_logo.jpg" style="height: 65px; width: 65px;"></a>
-            <a class="navbar-brand" style="font-weight: bold; font-size: 25px; color:orange" href="#">GP DAMAN</a>
+            <a class="navbar-brand" style="font-weight: bold; font-size: 25px; color:orange" href="./index.php">GP DAMAN</a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

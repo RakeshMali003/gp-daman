@@ -27,27 +27,27 @@ include('common/header.php')
 <h3 class="" style="margin-top: 150px;">Libary</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\lib1.jpg" style="height:250px" alt="">
+            <img src=".\photo\lib1.jpg" style="height:250px" alt="">
            
       </div>
 
 
 
         <div class="card m-2">
-            <img src="..\photo\lib2.jpg" style="height:250px" alt="">
+            <img src=".\photo\lib2.jpg" style="height:250px" alt="">
             </div>
 
 
 
         <div class="card m-2">
-            <img src="..\photo\lib3.jpg" style="height:250px" alt="">
+            <img src=".\photo\lib3.jpg" style="height:250px" alt="">
 
             </div>
     
 
 
             <div class="card m-2">
-                <img src="..\photo\header-1-1.jpg" style="height:250px" alt="">
+                <img src=".\photo\header-1-1.jpg" style="height:250px" alt="">
                 </div>
             </div>
             </div>
@@ -66,21 +66,21 @@ include('common/header.php')
 <h3 class="" style="margin-top: 50px;">Canteen</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\c1-.jpg" style="height:250px" alt="">
+            <img src=".\photo\c1-.jpg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\canteen1.jpg" style="height:250px" alt="">
+            <img src=".\photo\canteen1.jpg" style="height:250px" alt="">
            
       </div>
 
             <div class="card m-2">
-                <img src="..\photo\h1-2.jpg" style="height:250px" alt="">
+                <img src=".\photo\h1-2.jpg" style="height:250px" alt="">
                 </div>
 
             <div class="card m-2">
-                <img src="..\photo\c2.jpg" style="height:250px" alt="">
+                <img src=".\photo\c2.jpg" style="height:250px" alt="">
                 </div>
             </div>
             </div>
@@ -98,21 +98,21 @@ include('common/header.php')
 <h3 class="" style="margin-top: 50px;">Sport day</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\sport.jpg" style="height:250px" alt="">
+            <img src=".\photo\sport.jpg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\sports.jpg" style="height:250px" alt="">
+            <img src=".\photo\sports.jpg" style="height:250px" alt="">
            
       </div>
 
             <div class="card m-2">
-                <img src="..\photo\sport2.jpg" style="height:250px" alt="">
+                <img src=".\photo\sport2.jpg" style="height:250px" alt="">
                 </div>
 
             <div class="card m-2">
-                <img src="..\photo\sport3.jpeg" style="height:250px" alt="">
+                <img src=".\photo\sport3.jpeg" style="height:250px" alt="">
                 </div>
             </div>
             </div>
@@ -130,21 +130,21 @@ include('common/header.php')
 <h3 class="" style="margin-top: 50px;">Annul day</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\annul.jpg" style="height:250px" alt="">
+            <img src=".\photo\annul.jpg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\annul.jpeg" style="height:250px" alt="">
+            <img src=".\photo\annul.jpeg" style="height:250px" alt="">
            
       </div>
 
             <div class="card m-2">
-                <img src="..\photo\ncc.jpg" style="height:250px" alt="">
+                <img src=".\photo\ncc.jpg" style="height:250px" alt="">
                 </div>
 
             <div class="card m-2">
-                <img src="..\photo\annul.jpeg" style="height:250px" alt="">
+                <img src=".\photo\annul.jpeg" style="height:250px" alt="">
                 </div>
             </div>
             </div>
@@ -162,42 +162,42 @@ include('common/header.php')
 <h3 class="" style="margin-top: 50px;">day,s celebration in college</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\t2.jpg" style="height:250px" alt="">
+            <img src=".\photo\t2.jpg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\t2.jpg" style="height:250px" alt="">
+            <img src=".\photo\t2.jpg" style="height:250px" alt="">
            
       </div>
 
             <div class="card m-2">
-                <img src="..\photo\t5.jpg" style="height:250px" alt="">
+                <img src=".\photo\t5.jpg" style="height:250px" alt="">
                 </div>
 
             <div class="card m-2">
-                <img src="..\photo\t5.jpg" style="height:250px" alt="">
+                <img src=".\photo\t5.jpg" style="height:250px" alt="">
                 </div>
             </div>
 
 
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\1.jpg" style="height:250px" alt="">
+            <img src=".\photo\1.jpg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\t2.jpg" style="height:250px" alt="">
+            <img src=".\photo\t2.jpg" style="height:250px" alt="">
            
       </div>
 
             <div class="card m-2">
-                <img src="..\photo\1.jpg" style="height:250px" alt="">
+                <img src=".\photo\1.jpg" style="height:250px" alt="">
                 </div>
 
             <div class="card m-2">
-                <img src="..\photo\t5.jpg" style="height:250px" alt="">
+                <img src=".\photo\t5.jpg" style="height:250px" alt="">
                 </div>
             </div>
             </div>
@@ -216,21 +216,21 @@ include('common/header.php')
 <h3 class="" style="margin-top: 50px;">Computer lab & class</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\clab.jpg" style="height:250px" alt="">
+            <img src=".\photo\clab.jpg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\lab1.jpg" style="height:250px" alt="">
+            <img src=".\photo\lab1.jpg" style="height:250px" alt="">
            
       </div>
 
             <div class="card m-2">
-                <img src="..\photo\lab-2.png" style="height:250px" alt="">
+                <img src=".\photo\lab-2.png" style="height:250px" alt="">
                 </div>
 
             <div class="card m-2">
-                <img src="..\photo\homeo.jpg" style="height:250px" alt="">
+                <img src=".\photo\homeo.jpg" style="height:250px" alt="">
                 </div>
             </div>
             </div>
@@ -246,12 +246,12 @@ include('common/header.php')
 <h3 class="" style="margin-top: 50px;">Poster day</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\poster1.jpeg" style="height:250px" alt="">
+            <img src=".\photo\poster1.jpeg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\poster2.jpeg" style="height:250px" alt="">
+            <img src=".\photo\poster2.jpeg" style="height:250px" alt="">
            
       </div>
 
@@ -270,21 +270,21 @@ include('common/header.php')
 <h3 class="" style="margin-top: 50px;">College & hostel</h3>
     <div class="card-group">
         <div class="card m-2">
-            <img src="..\photo\gpcollege.jpeg" style="height:250px" alt="">
+            <img src=".\photo\gpcollege.jpeg" style="height:250px" alt="">
            
       </div>
 
       <div class="card m-2">
-            <img src="..\photo\h2.jpg" style="height:250px" alt="">
+            <img src=".\photo\h2.jpg" style="height:250px" alt="">
            
       </div>
 
             <div class="card m-2">
-                <img src="..\photo\h1.jpg" style="height:250px" alt="">
+                <img src=".\photo\h1.jpg" style="height:250px" alt="">
                 </div>
 
             <div class="card m-2">
-                <img src="..\photo\h1-2.jpg" style="height:250px" alt="">
+                <img src=".\photo\h1-2.jpg" style="height:250px" alt="">
                 </div>
             </div>
             </div>

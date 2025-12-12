@@ -34,7 +34,7 @@ include('common/header.php')
         <div class="card-group card mt-5">
     
             <div class="col-4">
-                <img src="..\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
+                <img src=".\photo\HOD-IT-Dr-Rakesh-Bhujade.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
                     <h5 class="card-title text-center text-primary">Dr. Rakesh kumar Bhujade</h5>
                     <p class="card-title text-center">Head of Department-IT</p>
                 </div>
@@ -56,7 +56,7 @@ include('common/header.php')
             <div class="card-group card mt-5">
     
                 <div class="col-4">
-                    <img src="..\photo\Comp-HOD-Aruna-Govada.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
+                    <img src=".\photo\Comp-HOD-Aruna-Govada.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
                         <h5 class="card-title text-center text-primary">Dr. Aruna Govada</h5>
                         <p class="card-title text-center">Head of Department-computer</p>
                     </div>
@@ -86,7 +86,7 @@ include('common/header.php')
                 <div class="card-group card mt-5">
     
                     <div class="col-4">
-                        <img src="..\photo\Comp-N-Rajitha.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
+                        <img src=".\photo\Comp-N-Rajitha.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
                             <h5 class="card-title text-center text-primary">Rajitha</h5>
                             <p class="card-title text-center">Head of Department-Civil</p>
                         </div>
@@ -118,7 +118,7 @@ include('common/header.php')
                     <div class="card-group card mt-5">
     
                         <div class="col-4">
-                            <img src="..\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
+                            <img src=".\photo\IT_Subham_Kumar_Gupta.jpeg" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
                                 <h5 class="card-title text-center text-primary">Subhamkumar gupta</h5>
                                 <p class="card-title text-center">Head of Department- plastic</p>
                             </div>
@@ -149,7 +149,7 @@ include('common/header.php')
                         <div class="card-group card mt-5">
     
                             <div class="col-4">
-                                <img src="..\photo\IT-HOD-Saprativa-Bhattacharjee.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
+                                <img src=".\photo\IT-HOD-Saprativa-Bhattacharjee.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
                                     <h5 class="card-title text-center text-primary">Saptrativa bhattacharjee</h5>
                                     <p class="card-title text-center">Head of Department-electrical</p>
                                 </div>
@@ -179,7 +179,7 @@ include('common/header.php')
                             <div class="card-group card mt-5">
     
                                 <div class="col-4">
-                                    <img src="..\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
+                                    <img src=".\photo\IT_Sanjay-Rajendra-Mate.png" style="height:250px ;width:300px" class="card img-fluid rounded-start mx-5 mt-2" alt="">
                                         <h5 class="card-title text-center text-primary">Sanajy mate</h5>
                                         <p class="card-title text-center">Head of Department-chemical</p>
                                     </div>
