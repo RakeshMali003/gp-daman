@@ -55,10 +55,10 @@
               <!-- Content -->
               <h6 class="text-uppercase fw-bold">GP DAMAN</h6>
               <hr class="mb-4 mt-0 d-inline-block mx-auto"  style="width: 60px; background-color: #7c4dff; height: 2px"/><br>
-              <a href="..\gpdaman\Academic-Calender-2021-22-Even.pdf" target="_blank" style="text-decoration: none; color: #fff;">Academic Calender</a><br>
+              <a href="..\Academic-Calender-2021-22-Even.pdf" target="_blank" style="text-decoration: none; color: #fff;">Academic Calender</a><br>
               <a href="#" style="text-decoration: none; color: #fff;">Academic Syllabus</a><br>
-              <a href="..\gpdaman\rule.php" style="text-decoration: none; color: #fff;">Academic Rule</a><br>
-              <a href="..\gpdaman\hostellife.php" style="text-decoration: none; color: #fff;">Hostel Life</a><br>
+              <a href="..\rule.php" style="text-decoration: none; color: #fff;">Academic Rule</a><br>
+              <a href="..\hostellife.php" style="text-decoration: none; color: #fff;">Hostel Life</a><br>
               <a href="#notice" style="text-decoration: none; color: #fff;">Notice</a>
             </div>
             <!-- Grid column -->
@@ -74,7 +74,7 @@
                   />
               <p><i class="fa fa-home mr-3"> </i> Varkund Vapi Road, Nani Daman,
                Near FM Radio Prasar Bharti</p>
-              <p><i class="fa fa-envelope mr-3"> </i> gpdaman@gmail.com</p>
+              <p><i class="fa fa-envelope mr-3"> </i>@gmail.com</p>
               <p><i class="fa fa-phone mr-3"> </i> + 01 234 567 88</p>
               <p><i class="fa fa-phone mr-3"> </i> + 01 234 567 89</p>
               <p><i class="fa fa-clock mr-3"> </i> <b>Mon-Sat:</b> 9:30AM to 5:00PM <br>
@@ -170,9 +170,7 @@ if(isset($_POST['submit'])){
            style="background-color: rgba(0, 0, 0, 0.2)"
            >
            © 2020 GP daman Education. All Rights Reserved.
-        <a class="text-white" href="https://mdbootstrap.com/"
-           >GPdaman</a
-          >
+        <a class="text-white" href="https://mdbootstrap.com/"a>
       </div>
       <!-- Copyright -->
     </footer>

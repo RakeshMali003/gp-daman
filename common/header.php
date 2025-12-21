@@ -51,8 +51,8 @@ location.href='students/studentdashboard.php ';
 
     <!----------------------------------bostrape file------------------------------------------------>
 
-    <link rel="stylesheet" href="..\gpdaman\bootstrap-5.0.0-beta2-dist\css\bootstrap.min.css">
-    <script src="..\gpdaman\bootstrap-5.0.0-beta2-dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href=".\bootstrap-5.0.0-beta2-dist\css\bootstrap.min.css">
+    <script src=".\bootstrap-5.0.0-beta2-dist\js\bootstrap.min.js"></script>
 
 
     
@@ -60,8 +60,8 @@ location.href='students/studentdashboard.php ';
 
 
     <!--------------------------------------fontawesome----------------------------->
-    <link rel="stylesheet" href="..\gpdaman\fontawesome-free-6.1.1-web\css\fontawesome.min.css">
-    <script src="..\gpdaman\fontawesome-free-6.1.1-web\js\fontawesome.min.js"></script>
+    <link rel="stylesheet" href=".\fontawesome-free-6.1.1-web\css\fontawesome.min.css">
+    <script src=".\fontawesome-free-6.1.1-web\js\fontawesome.min.js"></script>
 
     <!-- font ausome-->
 
@@ -72,7 +72,7 @@ location.href='students/studentdashboard.php ';
 
 
     <!-- css file-->
-    <link rel="stylesheet" href="../gpdaman/style.css">
+    <link rel="stylesheet" href="./style.css">
 
     <style>
     .modal-content{
@@ -102,7 +102,7 @@ location.href='students/studentdashboard.php ';
     <nav class="navbar  fixed-top navbar-expand-lg navbar-dark " id="nav">       
         <div class="container-fluid">
             <a class="navbar-brand" style="font-weight: bold; font-size: 25px;" href="#"><img
-                    src="..\gpdaman\photo\gpd_logo.jpg" style="height: 65px; width: 65px;"></a>
+                    src=".\photo\gpd_logo.jpg" style="height: 65px; width: 65px;"></a>
             <a class="navbar-brand" style="font-weight: bold; font-size: 25px; color:orange" href="./index.php">GP DAMAN</a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -113,11 +113,11 @@ location.href='students/studentdashboard.php ';
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size:17px">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="..\gpdaman\index.php">HOME</a>
+                        <a class="nav-link active" aria-current="page" href=".\index.php">HOME</a>
                     </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="..\gpdaman\aboutus.php" aria-disabled="page">ABOUT US</a>
+                        <a class="nav-link active" href=".\aboutus.php" aria-disabled="page">ABOUT US</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -126,13 +126,13 @@ location.href='students/studentdashboard.php ';
                             COURSES
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="..\gpdaman\courses-it.php">INFORMATION TECHNOGOLY</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\courses-cs.php">COMPUTER</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\courses-civil.php">CIVIL</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\courses-mechenical.php">MECHINICAL</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\courses-plastic.php">PLASTIC</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\courses-electrical.php">ELECTRICAL</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\courses-chemical.php">CHEMICAL</a></li>
+                            <li><a class="dropdown-item" href=".\courses-it.php">INFORMATION TECHNOGOLY</a></li>
+                            <li><a class="dropdown-item" href=".\courses-cs.php">COMPUTER</a></li>
+                            <li><a class="dropdown-item" href=".\courses-civil.php">CIVIL</a></li>
+                            <li><a class="dropdown-item" href=".\courses-mechenical.php">MECHINICAL</a></li>
+                            <li><a class="dropdown-item" href=".\courses-plastic.php">PLASTIC</a></li>
+                            <li><a class="dropdown-item" href=".\courses-electrical.php">ELECTRICAL</a></li>
+                            <li><a class="dropdown-item" href=".\courses-chemical.php">CHEMICAL</a></li>
                         </ul>
                     </li>
                     
@@ -142,13 +142,13 @@ location.href='students/studentdashboard.php ';
                             FACULTY DETAILS
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="..\gpdaman\principal.php">PRINCIPAL</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\hod.php">HOD</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\faculty.php">FACULTY</a></li>
+                            <li><a class="dropdown-item" href=".\principal.php">PRINCIPAL</a></li>
+                            <li><a class="dropdown-item" href=".\hod.php">HOD</a></li>
+                            <li><a class="dropdown-item" href=".\faculty.php">FACULTY</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="..\gpdaman\tranning&placment.php" aria-disabled="page">TRANING AND PLACEMENT</a>
+                        <a class="nav-link active" href=".\tranning&placment.php" aria-disabled="page">TRANING AND PLACEMENT</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -157,12 +157,12 @@ location.href='students/studentdashboard.php ';
                             ACADEMIC
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="..\gpdaman\rule.php">ACADEMIC RULE</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\hostellife.php">HOSTEL LIFE</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\Academic-Calender-2021-22-Even.pdf" target="_blank">ACADEMIC CALENDER</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\Mandatory-disclosure-latest-.pdf" target="_blank">MANDATORY-DISCLOSURES</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\gallery.php">GALLERY</a></li>
-                            <li><a class="dropdown-item" href="..\gpdaman\libary.php">LIBARY</a></li>
+                            <li><a class="dropdown-item" href=".\rule.php">ACADEMIC RULE</a></li>
+                            <li><a class="dropdown-item" href=".\hostellife.php">HOSTEL LIFE</a></li>
+                            <li><a class="dropdown-item" href=".\Academic-Calender-2021-22-Even.pdf" target="_blank">ACADEMIC CALENDER</a></li>
+                            <li><a class="dropdown-item" href=".\Mandatory-disclosure-latest-.pdf" target="_blank">MANDATORY-DISCLOSURES</a></li>
+                            <li><a class="dropdown-item" href=".\gallery.php">GALLERY</a></li>
+                            <li><a class="dropdown-item" href=".\libary.php">LIBARY</a></li>
                             <li><a class="dropdown-item" href="#">NOTICE</a></li>
                         </ul>
                         </li>
@@ -173,11 +173,11 @@ location.href='students/studentdashboard.php ';
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">NSS ACTIVITIES</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\pdf\Sports-Week-Report.pdf" target="_blank">SPORT DAY</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\pdf\Annual-day-report.pdf" target="_blank">ANNUAL DAY</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\pdf\Navratri-Report-2021.pdf" target="_blank">NAVRATRI</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\pdf\ganpati-report.pdf" target="_blank">GANPATI CELEBRATION</a></li>
-                                <li><a class="dropdown-item" href="..\gpdaman\pdf\liberation-day.pdf" target="_blank">LIBERATION DAY</a></li>
+                                <li><a class="dropdown-item" href=".\pdf\Sports-Week-Report.pdf" target="_blank">SPORT DAY</a></li>
+                                <li><a class="dropdown-item" href=".\pdf\Annual-day-report.pdf" target="_blank">ANNUAL DAY</a></li>
+                                <li><a class="dropdown-item" href=".\pdf\Navratri-Report-2021.pdf" target="_blank">NAVRATRI</a></li>
+                                <li><a class="dropdown-item" href=".\pdf\ganpati-report.pdf" target="_blank">GANPATI CELEBRATION</a></li>
+                                <li><a class="dropdown-item" href=".\pdf\liberation-day.pdf" target="_blank">LIBERATION DAY</a></li>
                             </ul>
                         </li>
 
@@ -192,7 +192,7 @@ location.href='students/studentdashboard.php ';
                         href="#">LOGIN</a></button>
 
                     <button class="btn btn-primary" type="button" style="border-radius:50px"><a class="btn text-light"
-                            href="..\gpdaman\apply.php">APPLY NOW</a></button>
+                            href=".\apply.php">APPLY NOW</a></button>
 
                             
                 </div>
@@ -210,9 +210,9 @@ location.href='students/studentdashboard.php ';
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel"> <a href="#" style="color:white; text-decoration:none " target="_blank"> Student Login </a></h5> 
           <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white; margin:10px " >  </a> | </h5> 
-          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\faculty\facultylogin.php" style="color:white; text-decoration:none; margin:5px" target="_blank"> Faculty Login </a></h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href=".\faculty\facultylogin.php" style="color:white; text-decoration:none; margin:5px" target="_blank"> Faculty Login </a></h5> 
           <h5 class="modal-title" id="exampleModalLabel"><a href="" style="color:white;  margin:10px " target="_blank">  </a>|</h5> 
-          <h5 class="modal-title" id="exampleModalLabel"><a href="..\gpdaman\admin\adminlogin.php" style="color:white; text-decoration:none; margin:5px" target="_blank"> Admin Login </a></h5> 
+          <h5 class="modal-title" id="exampleModalLabel"><a href=".\admin\adminlogin.php" style="color:white; text-decoration:none; margin:5px" target="_blank"> Admin Login </a></h5> 
 
           <button type="button" class="btn-close btn-danger" data-bs-dismiss="modal" aria-label="Close" style="background-color:red"></button>
         </div>
